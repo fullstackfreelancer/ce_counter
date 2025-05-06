@@ -13,7 +13,7 @@ This TYPO3 extension provides a **custom content element** of type "Counter" (ce
 <table border="0">
     <tr>
         <th>Latest version</b></th>
-        <td><a href="https://github.com/koehlersimon/ce_counter/releases/tag/v2.0.0">2.0.0</a></td>
+        <td><a href="https://github.com/koehlersimon/ce_counter/releases/tag/v2.0.0">2.0.1</a></td>
     </tr>
     <tr>
         <th>Status</b></th>
@@ -21,7 +21,7 @@ This TYPO3 extension provides a **custom content element** of type "Counter" (ce
     </tr>
     <tr>
         <th>TYPO3 version</b></th>
-        <td>10.4.0 - 11.5.99</td>
+        <td>10.4.0 - 12.4.99</td>
     </tr>
     <tr>
         <th>TER</b></th>
