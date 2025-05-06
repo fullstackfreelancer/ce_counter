@@ -17,11 +17,11 @@ call_user_func(function () {
 	);
 
 	// New palette header
-	$GLOBALS['TCA']['tt_content']['palettes']['headercombined'] = array(
+	$GLOBALS['TCA']['tt_content']['palettes']['ce_counter_header'] = array(
 		'showitem' => 'header, header_layout, header_position','canNotCollapse' => 1
 	);
 
-	$GLOBALS['TCA']['tt_content']['palettes']['countdown'] = array(
+	$GLOBALS['TCA']['tt_content']['palettes']['ce_counter_settings'] = array(
 		'showitem' => 'counter_time, counter_stop','canNotCollapse' => 1
 	);
 
@@ -29,9 +29,9 @@ call_user_func(function () {
 	$GLOBALS['TCA']['tt_content']['types']['ce_counter'] = [
 		'showitem' => '
 			--palette--;' . $frontendLanguageFilePrefix . 'palette.general;general,
-			--palette--;;headercombined,
+			--palette--;;ce_counter_header,
 			subheader,
-			--palette--;LLL:EXT:ce_counter/Resources/Private/Language/locallang_db.xlf:counter_settings;countdown,
+			--palette--;LLL:EXT:ce_counter/Resources/Private/Language/locallang_db.xlf:counter_settings;ce_counter_settings,
 			--div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.appearance,
 			--palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.frames;frames,
 			--div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:language,
