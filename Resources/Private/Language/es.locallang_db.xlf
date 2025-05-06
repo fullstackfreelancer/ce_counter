@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2025-05-06T12:05:37Z" product-name="ce_counter">
+		<header/>
+		<body>
+
+			<trans-unit id="counter_settings">
+				<target>Configuración</target>
+			</trans-unit>
+			<trans-unit id="counter_time">
+				<target>Tiempo</target>
+			</trans-unit>
+			<trans-unit id="counter_time.description">
+				<target>Seleccione el tiempo objetivo que desea que el contador cuente. Este número debe estar en el futuro, pero no más allá de 10 años.</target>
+			</trans-unit>
+			<trans-unit id="counter_stop">
+				<target>¿Detener el contador al final?</target>
+			</trans-unit>
+			<trans-unit id="counter_stop.description">
+				<target>Si no detiene el contador al final, se mostrará automáticamente el tiempo transcurrido desde la fecha objetivo. Al detenerlo, podrá configurar otras acciones.</target>
+			</trans-unit>
+
+		</body>
+	</file>
+</xliff>
