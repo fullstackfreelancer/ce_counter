@@ -1,4 +1,4 @@
-mod.wizards.newContentElement.wizardItems.common {
+mod.wizards.newContentElement.wizardItems.default {
     elements {
         ce_counter {
             iconIdentifier = ce-counter-record
