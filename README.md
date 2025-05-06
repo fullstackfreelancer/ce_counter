@@ -1,5 +1,5 @@
 <table border="0" width="100%">
-<tr><td width="130"><img src="https://raw.githubusercontent.com/fullstackfreelancer/ce_counter/refs/heads/main/Resources/Public/Icons/ext_icon.svg?token=GHSAT0AAAAAADCTHW536CWPYWEWPZOFUDLM2AZMFWA" width="120" height="120"></td>
+<tr><td width="130"><img src="https://extensions.typo3.org/typo3temp/assets/tx_terfe2/images/ce_counter_2.0.0.svg" width="120" height="120"></td>
 <td>
 
 # Counter Content Element for TYPO3 CMS
