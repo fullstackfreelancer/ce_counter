@@ -1,4 +1,4 @@
-# <img src="https://github.com/fullstackfreelancer/ce_counter/blob/master/Resources/Public/Icons/ext_icon.svg?raw=true" width="80" height="80"><br> ce_counter - TYPO3 Extension
+# <img src="https://raw.githubusercontent.com/fullstackfreelancer/ce_counter/refs/heads/main/Resources/Public/Icons/ext_icon.svg?token=GHSAT0AAAAAADCTHW536CWPYWEWPZOFUDLM2AZMFWA" width="80" height="80"><br> ce_counter - TYPO3 Extension
 
 This extension provides a **custom content element** of type "Counter" (ce_counter) that shows a visual Counter in the frontend.
 
