@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2021-05-01T12:05:37Z" product-name="ce_counter">
+		<header/>
+		<body>
+
+			<trans-unit id="counter_settings">
+				<target>Countdown-Einstellungen</target>
+			</trans-unit>
+			<trans-unit id="counter_time">
+				<target>Zeit</target>
+			</trans-unit>
+			<trans-unit id="counter_time.description">
+				<target>Wähle die Ziel-Zeit, zu der der Zähler zählen soll. Diese Zahl muss in der Zukunft liegen, aber nicht weiter als 10 Jahre entfernt.</target>
+			</trans-unit>
+			<trans-unit id="counter_stop">
+				<target>Zähler am Ende stoppen?</target>
+			</trans-unit>
+			<trans-unit id="counter_stop.description">
+				<target>Wenn du den Zähler nicht am Ende stoppst, wird automatisch die vergangene Zeit seit dem Zieldatum angezeigt. Wenn du ihn stoppst, kannst du weitere Aktionen festlegen.</target>
+			</trans-unit>
+
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2021-05-01T12:05:37Z" product-name="ce_counter">
+		<header/>
+		<body>
+
+			<trans-unit id="counter_settings">
+				<source>Countdown Settings</source>
+			</trans-unit>
+			<trans-unit id="counter_time">
+				<source>Countdown Time</source>
+			</trans-unit>
+			<trans-unit id="counter_time.description">
+				<source>Select the target time at which the counter should count. This number must be in the future, but not further than 10 years away.</source>
+			</trans-unit>
+			<trans-unit id="counter_stop">
+				<source>Stop counter at the end?</source>
+			</trans-unit>
+			<trans-unit id="counter_stop.description">
+				<source>If you don't stop the counter at the end, the elapsed time since the target date is automatically displayed. When you stop it, you can set other actions.</source>
+			</trans-unit>
+
+		</body>
+	</file>
+</xliff>
