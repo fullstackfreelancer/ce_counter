@@ -1,4 +1,4 @@
-# <img src="https://github.com/koehlersimon/ce_counter/blob/master/Resources/Public/Icons/ext_icon.svg?raw=true" width="80" height="80"><br> ce_counter - TYPO3 Extension
+# <img src="https://github.com/fullstackfreelancer/ce_counter/blob/master/Resources/Public/Icons/ext_icon.svg?raw=true" width="80" height="80"><br> ce_counter - TYPO3 Extension
 
 This extension provides a **custom content element** of type "Counter" (ce_counter) that shows a visual Counter in the frontend.
 
@@ -33,10 +33,6 @@ You can simply install and overwrite the extension, but TypoScript and Page TSco
 
 <sup>*</sup> (more options coming soon!)
 
-## Online DEMO and Screenshots
-Here's a little DEMO of the extension in action. It's also possible to place multiple countdown records on a page.
-https://website-package.com/
-
 ## Installation
 
 Install the extension by downloading it in the extension manager or on https://extensions.typo3.org/extension/ce_counter/.
@@ -47,12 +43,8 @@ You don't need to configure anything to get this extension running. Isn't it awe
 
 ## Support & Service
 
-If you have any problems with the extension, please let me know! Since this is open source, I only guarantee 100% expert support when I get paid, but I also like to support the community. Please don't hesitate to open an issue here on GitHub or send a message: https://simon-koehler.com/contact
+If you have any problems with the extension, please let me know! Since this is open source, I only guarantee 100% expert support when I get paid, but I also like to support the community. Please don't hesitate to open an issue here on GitHub or send a message: https://kohlercode.com/contact
 
 ## Help me to keep the System up-to-date!
 
 Many times if there is a special request, I just do it for free. I believe in the power of open source and free software. I also believe in you and your projects. If you like my work and you want to ensure further development, please don't hesitate to make a donation here: https://paypal.me/typo3freelancer
-
-## Do you want to learn TYPO3? Here's what you need:
-Video Training TYPO3 9 LTS (German language)
-https://www.digistore24.com/redir/246076/GOCHILLA/
