@@ -8,7 +8,7 @@ call_user_func(function () {
 		'tt_content',
 		'CType',
 		[
-			'Countdown',
+			'LLL:EXT:ce_counter/Resources/Private/Language/locallang.xlf:ce_title',
 			'ce_counter',
 			'ce-counter-icon'
 		],
