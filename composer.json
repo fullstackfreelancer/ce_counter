@@ -14,6 +14,10 @@
     ],
     "funding": [
         {
+            "type": "patreon",
+            "url": "https://www.patreon.com/typo3freelancer"
+        },
+        {
             "type": "paypal",
             "url": "https://paypal.me/typo3freelancer/25"
         }
