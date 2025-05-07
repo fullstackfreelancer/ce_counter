@@ -17,7 +17,7 @@ This TYPO3 extension provides a **custom content element** of type "Counter" (ce
     </tr>
     <tr>
         <th>TYPO3 version</b></th>
-        <td>10.4.0 - 12.4.99</td>
+        <td>12.4.0 - 13.4.9</td>
     </tr>
     <tr>
         <th>TER</b></th>
