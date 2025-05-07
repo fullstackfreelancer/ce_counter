@@ -24,7 +24,8 @@
     ],
     "support": {
         "email": "info@simon-koehler.com",
-        "docs": "https://kohlercode.com/"
+        "docs": "https://github.com/fullstackfreelancer/ce_counter",
+        "issues": "https://github.com/fullstackfreelancer/ce_counter/issues"
     },
     "license": "GPL-3.0-or-later",
     "require": {
