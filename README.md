@@ -25,11 +25,15 @@ This TYPO3 extension provides a **custom content element** of type "Counter" (ce
     </tr>
 </table>
 
+## LIVE DEMO
+https://kohlercode.com/products/typo3-extensions/counter-content-element
+
 <hr>
 
-## IMPORTANT NOTE FOR UPDATES FROM 1.0 to 2.0
-You can simply install and overwrite the extension, but TypoScript and Page TSconfig has to be included in your template record and page properties. Otherwise the counter will not show up, or the content element wizard in your backend will not show the counter element.
-
+## IMPORTANT NOTE FOR UPDATES FROM 2.0 to 3.0
+- install and overwrite the extension
+- TypoScript must be integrated in the site settings or in an extension template
+- The new fields "format" and "labels" must be filled in for existing ce_counter content elements
 
 ## Features
 
