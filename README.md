@@ -47,7 +47,8 @@ Install the extension by downloading it in the extension manager or on https://e
 
 ## Basic configuration
 
-You don't need to configure anything to get this extension running. Isn't it awesome?!
+- TypoScript must be integrated in the site settings or in an extension template
+- That's it. Easy, right?
 
 ## Support & Service
 
