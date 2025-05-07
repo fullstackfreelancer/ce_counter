@@ -14,6 +14,10 @@
     ],
     "funding": [
         {
+            "type": "custom",
+            "url": "https://kohlercode.com/donate"
+        },
+        {
             "type": "patreon",
             "url": "https://www.patreon.com/typo3freelancer"
         },
