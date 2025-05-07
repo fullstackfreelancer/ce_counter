@@ -22,7 +22,7 @@ call_user_func(function () {
 	);
 
 	$GLOBALS['TCA']['tt_content']['palettes']['ce_counter_settings'] = array(
-		'showitem' => 'counter_time, counter_stop','canNotCollapse' => 1
+		'showitem' => 'counter_time, counter_stop, --linebreak--, counter_labels, counter_format','canNotCollapse' => 1
 	);
 
 	$GLOBALS['TCA']['tt_content']['ctrl']['typeicon_classes']['ce_counter'] = 'ce-counter-record';
@@ -63,6 +63,24 @@ call_user_func(function () {
 			'config' => [
 				'type' => 'check',
 				'default' => 1
+			],
+		],
+		'counter_labels' => [
+			'exclude' => 0,
+			'label' => 'LLL:EXT:ce_counter/Resources/Private/Language/locallang_db.xlf:counter_labels',
+			'description' => 'LLL:EXT:ce_counter/Resources/Private/Language/locallang_db.xlf:counter_labels.description',
+			'config' => [
+				'type' => 'input',
+				'default' => 'days,hours,minutes,seconds'
+			],
+		],
+		'counter_format' => [
+			'exclude' => 0,
+			'label' => 'LLL:EXT:ce_counter/Resources/Private/Language/locallang_db.xlf:counter_format',
+			'description' => 'LLL:EXT:ce_counter/Resources/Private/Language/locallang_db.xlf:counter_format.description',
+			'config' => [
+				'type' => 'input',
+				'default' => 'd,h,m,s'
 			],
 		],
 
