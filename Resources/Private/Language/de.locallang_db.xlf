@@ -7,17 +7,33 @@
 			<trans-unit id="counter_settings">
 				<target>Countdown-Einstellungen</target>
 			</trans-unit>
+
 			<trans-unit id="counter_time">
 				<target>Zeit</target>
 			</trans-unit>
 			<trans-unit id="counter_time.description">
 				<target>Wähle die Ziel-Zeit, zu der der Zähler zählen soll. Diese Zahl muss in der Zukunft liegen, aber nicht weiter als 10 Jahre entfernt.</target>
 			</trans-unit>
+
 			<trans-unit id="counter_stop">
 				<target>Zähler am Ende stoppen?</target>
 			</trans-unit>
 			<trans-unit id="counter_stop.description">
 				<target>Wenn du den Zähler nicht am Ende stoppst, wird automatisch die vergangene Zeit seit dem Zieldatum angezeigt. Wenn du ihn stoppst, kannst du weitere Aktionen festlegen.</target>
+			</trans-unit>
+
+			<trans-unit id="counter_format">
+				<target>Format</target>
+			</trans-unit>
+			<trans-unit id="counter_format.description">
+				<target>Das Format kann in der Form „t,h,m,s“ angegeben werden. Wenn beispielsweise nur „t,h“ angegeben wird, werden nur Tage und Stunden angezeigt.</target>
+			</trans-unit>
+
+			<trans-unit id="counter_labels">
+				<target>Labels</target>
+			</trans-unit>
+			<trans-unit id="counter_labels.description">
+				<target>Die Bezeichnungen für Tage, Stunden, Minuten und Sekunden. Durch Kommas getrennt.</target>
 			</trans-unit>
 
 		</body>

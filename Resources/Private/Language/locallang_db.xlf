@@ -7,17 +7,33 @@
 			<trans-unit id="counter_settings">
 				<source>Countdown Settings</source>
 			</trans-unit>
+
 			<trans-unit id="counter_time">
 				<source>Countdown Time</source>
 			</trans-unit>
 			<trans-unit id="counter_time.description">
 				<source>Select the target time at which the counter should count. This number must be in the future, but not further than 10 years away.</source>
 			</trans-unit>
+
 			<trans-unit id="counter_stop">
 				<source>Stop counter at the end?</source>
 			</trans-unit>
 			<trans-unit id="counter_stop.description">
 				<source>If you don't stop the counter at the end, the elapsed time since the target date is automatically displayed. When you stop it, you can set other actions.</source>
+			</trans-unit>
+
+			<trans-unit id="counter_format">
+				<source>Counter Format</source>
+			</trans-unit>
+			<trans-unit id="counter_format.description">
+				<source>The format can be specified in the form "d,h,m,s." For example, if you specify only "d,h," only days and hours will be displayed.</source>
+			</trans-unit>
+
+			<trans-unit id="counter_labels">
+				<source>Counter Labels</source>
+			</trans-unit>
+			<trans-unit id="counter_labels.description">
+				<source>The labels for days, hours, minutes, and seconds. Comma-separated.</source>
 			</trans-unit>
 
 		</body>

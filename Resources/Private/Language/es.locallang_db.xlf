@@ -7,17 +7,33 @@
 			<trans-unit id="counter_settings">
 				<target>Configuración</target>
 			</trans-unit>
+
 			<trans-unit id="counter_time">
 				<target>Tiempo</target>
 			</trans-unit>
 			<trans-unit id="counter_time.description">
 				<target>Seleccione el tiempo objetivo que desea que el contador cuente. Este número debe estar en el futuro, pero no más allá de 10 años.</target>
 			</trans-unit>
+
 			<trans-unit id="counter_stop">
 				<target>¿Detener el contador al final?</target>
 			</trans-unit>
 			<trans-unit id="counter_stop.description">
 				<target>Si no detiene el contador al final, se mostrará automáticamente el tiempo transcurrido desde la fecha objetivo. Al detenerlo, podrá configurar otras acciones.</target>
+			</trans-unit>
+
+			<trans-unit id="counter_format">
+				<target>Formato</target>
+			</trans-unit>
+			<trans-unit id="counter_format.description">
+				<target>El formato se puede especificar en la forma “d,h,m,s”. Por ejemplo, si solo se especifica “d,h”, solo se mostrarán los días y las horas.</target>
+			</trans-unit>
+
+			<trans-unit id="counter_labels">
+				<target>Etiquetas</target>
+			</trans-unit>
+			<trans-unit id="counter_labels.description">
+				<target>Los nombres de días, horas, minutos y segundos. Separados por comas.</target>
 			</trans-unit>
 
 		</body>
