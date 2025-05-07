@@ -1,0 +1,35 @@
+.tx-cecounter{
+    display: flex;
+    justify-content: center;
+}
+.tx-counter-layout-fancy .tx-cecounter-datewrap{
+    display: flex;
+    align-items: center;
+    border: 2px solid pink;
+    border-radius: 1rem;
+    background-color: purple;
+    padding: 0 .3rem 0 .3rem;
+    margin: .5rem 0;
+}
+.tx-counter-layout-fancy .tx-cecounter-datewrap > div{
+    display: flex;
+    flex-flow: column;
+    line-height: 1;
+    align-items: center;
+    padding: .2rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: pink;
+}
+.tx-counter-layout-fancy .tx-cecounter-datewrap .number{
+    color: white;
+}
+.tx-counter-layout-fancy .tx-cecounter-datewrap .label{
+    font-size: 1rem;
+}
+@media(min-width:480px){
+    .tx-counter-layout-fancy .tx-cecounter-datewrap > div{
+        font-size: 1.75rem;
+        padding: .4rem;
+    }
+}

@@ -1,0 +1,35 @@
+.tx-counter-layout-default{
+    display: flex;
+    justify-content: center;
+}
+.tx-counter-layout-default .tx-cecounter-datewrap{
+    display: flex;
+    padding: .5rem 0;
+}
+.tx-counter-layout-default .tx-cecounter-datewrap > div{
+    padding: .6rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background: linear-gradient(0, black, #333333);
+    box-shadow: inset 0px 1rem 0px 0px rgba(255, 255, 255, 0.06), inset 0px 0px .5rem 0px rgba(15, 175, 255, 0.4);
+    border-radius: .5rem;
+    margin-right: .5rem;
+    color: #cccccc;
+}
+.tx-counter-layout-default .tx-cecounter-datewrap > div:last-child{
+    margin-right: 0;
+}
+.tx-counter-layout-default .tx-cecounter-datewrap .number{
+    color: white;
+}
+.tx-counter-layout-default .tx-cecounter-datewrap .label{
+    font-size: 1rem;
+}
+@media(min-width:480px){
+    .tx-counter-layout-default .tx-cecounter-datewrap > div{
+        font-size: 1.75rem;
+        padding: 1rem;
+        border-radius: .5rem;
+        box-shadow: inset 0px 2rem 0px 0px rgba(255, 255, 255, 0.06), inset 0px 0px 1rem 0px rgba(15, 175, 255, 0.4);
+    }
+}
