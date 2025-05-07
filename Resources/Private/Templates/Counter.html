@@ -1,35 +1,76 @@
 <f:layout name="Default" />
 <f:section name="Main">
 
-<div class="tx-cecountdown"
-    data-time="{data.counter_time}"
-    data-format="{days,hours,mins,secs}"
->
-    <span class="days"></span>
-    <span class="hours"></span>
-    <span class="mins"></span>
-    <span class="secs"></span>
-</div>
+    <f:switch expression="{data.layout}">
+        <f:case value="0">
+            <f:render section="default" arguments="{_all}"/>
+        </f:case>
+        <f:case value="400">
+            <f:render section="fancy" arguments="{_all}"/>
+        </f:case>
+        <f:case value="401">
+            <f:render section="bootstrap" arguments="{_all}"/>
+        </f:case>
+        <f:defaultCase>
+            <f:render section="default" arguments="{_all}"/>
+        </f:defaultCase>
+    </f:switch>
 
-<f:asset.script identifier="countdown" src="EXT:ce_counter/Resources/Public/Js/Countdown.js" />
+    <f:asset.script identifier="ce_counter_timer" src="EXT:ce_counter/Resources/Public/Js/CountDownTimer.js" />
+    <f:asset.script identifier="ce_counter_init">
+    document.addEventListener('DOMContentLoaded', () => {
+        document.querySelectorAll('.tx-cecounter').forEach(el => {
+            const timer = new CountDownTimer(el);
+            timer.start();
+        });
+    });
+    </f:asset.script>
 
-<f:asset.css identifier="countdown">
-.tx-cecountdown{
-    display: flex;
-    justify-content: center;
-    border: 1px solid #eee;
-}
-.tx-cecountdown span{
-    display: inline-flex;
-    padding: 1rem;
-    font-size: 1.6rem;
-    font-weight: bold;
-}
-@media(min-width:480px){
-    .tx-cecountdown span{
-        font-size: 2rem;
-    }
-}
-</f:asset.css>
+</f:section>
 
+<f:section name="default">
+    <div class="tx-cecounter tx-counter-layout-default"
+        data-time="{data.counter_time}"
+        data-format="{data.counter_format}"
+        data-labels="{data.counter_labels}"
+    >
+        <div class="tx-cecounter-datewrap">
+            <div class="d"><span class="number"></span><span class="label"></span></div>
+            <div class="h"><span class="number"></span><span class="label"></span></div>
+            <div class="m"><span class="number"></span><span class="label"></span></div>
+            <div class="s"><span class="number"></span><span class="label"></span></div>
+        </div>
+    </div>
+    <f:asset.css identifier="counter_default" href="EXT:ce_counter/Resources/Public/Css/default.css"/>
+</f:section>
+
+<f:section name="bootstrap">
+    <div class="tx-cecounter d-flex align-items-center justify-content-center"
+        data-time="{data.counter_time}"
+        data-format="{data.counter_format}"
+        data-labels="{data.counter_labels}"
+    >
+        <div class="tx-cecounter-datewrap d-flex align-items-center justify-content-center fw-bold fs-4 my-2 px-2">
+            <div class="d p-1 p-md-2"><span class="number text-white fs-2"></span><span class="label text-primary"></span></div>
+            <div class="h p-1 p-md-2"><span class="number text-white fs-2"></span><span class="label text-primary"></span></div>
+            <div class="m p-1 p-md-2"><span class="number text-white fs-2"></span><span class="label text-primary"></span></div>
+            <div class="s p-1 p-md-2"><span class="number text-white fs-2"></span><span class="label text-primary"></span></div>
+        </div>
+    </div>
+</f:section>
+
+<f:section name="fancy">
+    <div class="tx-cecounter tx-counter-layout-fancy"
+        data-time="{data.counter_time}"
+        data-format="{data.counter_format}"
+        data-labels="{data.counter_labels}"
+    >
+        <div class="tx-cecounter-datewrap">
+            <div class="d"><span class="number"></span><span class="label"></span></div>
+            <div class="h"><span class="number"></span><span class="label"></span></div>
+            <div class="m"><span class="number"></span><span class="label"></span></div>
+            <div class="s"><span class="number"></span><span class="label"></span></div>
+        </div>
+    </div>
+    <f:asset.css identifier="counter_fancy" href="EXT:ce_counter/Resources/Public/Css/fancy.css"/>
 </f:section>
