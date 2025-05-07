@@ -8,7 +8,7 @@
 </tr>
 </table>
 
-This TYPO3 extension provides a **custom content element** of type "Counter" (ce_counter) that shows a visual Counter in the frontend.
+Provides a new content element that displays a visual counter in the frontend. Three layouts are integrated, including a bare Bootstrap template. Custom templates can be easily added. Multiple counters can be displayed on the same page, and the format and labeling can be customized.
 
 <table border="0">
     <tr>
