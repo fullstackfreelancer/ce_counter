@@ -54,6 +54,6 @@ Install the extension by downloading it in the extension manager or on https://e
 
 If you have any problems with the extension, please let me know! Since this is open source, I only guarantee 100% expert support when I get paid, but I also like to support the community. Please don't hesitate to open an issue here on GitHub or send a message: https://kohlercode.com/contact
 
-## Help me to keep the System up-to-date!
-
-Many times if there is a special request, I just do it for free. I believe in the power of open source and free software. I also believe in you and your projects. If you like my work and you want to ensure further development, please don't hesitate to make a donation here: https://paypal.me/typo3freelancer
+## Your Donation Makes a Difference
+Keep TYPO3 Extensions Alive & Evolving
+- https://kohlercode.com/donate
